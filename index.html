@@ -3,81 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidad</title>
-    <link rel="shortcut icon" href="img/sync.ico" type="image/x-icon">
+    <title>Sync</title>
     <style>
-        body {
+body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            border-bottom: 2px solid #305bb6;
-            padding-bottom: 10px;
-            margin-left: 10px;
-        }
-        .header img {
-            max-height: 50px;
-            margin-left: 20px;
-        }
-        .header h1 {
-            margin: 0;
+            background-color: #f4f4f4;
             color: #333;
         }
-        h2 {
-            color: #305bb6;
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
         }
-        .p {
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 15px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            
+            bottom: 0;
+            width: 100%;
+        }
+        .logo {
+            float: left;
+            flex: auto;
+        }
+        .logo img {
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+        }
+        
+        .p{
             line-height: 1.6;
             color: #666;
+        }
+        .h12{
+            color: #f4f4f4;
+            padding-left: 20px;
+            margin: 20px;
+            position: absolute;
+            top: 10px;
+            left: 208px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Política de Privacidad</h1>
-            <img src="img/sync.png" alt="Logo">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/sync.ico" alt="Logo">
+            </div>
+            <h1 class="h12">Sync</h1>
+            <ul>
+                <li><a href="policity-privacy.html">Política</a></li>
+            </ul>
         </div>
-        <p class="p">Última actualización: [1/8/24]</p>
-        <h2>1. Introducción</h2>
-        <p class="p">
-            Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos la información personal que usted proporciona al usar nuestra aplicación.
-        </p>
-        <h2>3. Uso de la Información</h2>
-        <p class="p">
-            Utilizamos la información recopilada con y para los siguientes propósitos:
-        </p>
-        <ul class="p">
-            <li>Datos de autenticación: Información necesaria para autenticar su cuenta de Google y acceder a Google Drive</li>
-            <br>
-            <li>Archivos:Solo los archivos que usted elige sincronizar con Google Drive mediante nuestra app</li>
-            <br>
-            <li>Datos de Uso:La app al ejecutarse abrirá una pestaña de inicio de sesión en la que usted deberá introducir sus credenciales, y manualmente abriría su google drive para verificar que la app creó dentro de “Mi Unidad” una carpeta de acceso Público llamada USBin que sincronizará con la carpeta dentro de su PenDrive con el mismo nombre  .</li>
-        </ul>
-        <h2>4. Seguridad de los Datos</h2>
-        <p class="p">
-            Las medidas de seguridad son implementadas por el propio Google ya que usted deberá iniciar sesión y estos datos no se guardan, es decir, cada vez que ejecute nuestra app esta le pedirá que inicie de forma manual.
-        </p>
-        <h2>5. Cambios a esta Política de Privacidad</h2>
-        <p class="p">
-            Podemos actualizar esta Política de Privacidad de vez en cuando. Le notificaremos sobre cualquier cambio publicando la nueva Política de Privacidad en nuestra aplicación
-        </p>
-        <h2>6. Contacto</h2>
-        <p class="p">
-            Si tiene alguna pregunta o inquietud sobre esta Política de Privacidad, póngase en contacto con nosotros en [bauty.1970@gmail.com].
-        </p>
+    </header>
+    <div class="container">
+        <div class="main">
+            <h1>Bienvenido a USBin Sync</h1>
+            <p>USBin Sync es una aplicación diseñada para facilitar la sincronización de archivos entre tu dispositivo USB y Google Drive.</p>
+            <p>Con USBin Sync, puedes asegurar que todos tus archivos importantes están siempre respaldados y accesibles desde tu <br>
+                cuenta de google drive.</p>
+            <p> y lo mejor en caso de que no tengas configuradas las dos partes (USB y tu google Drive) la aplicacion lo hace por vos, por eso <br>
+                la app solicita permisos al momento de inicarla</p>
+        </div>
+        <div class="main">
+            <h1>Instalacion</h1>
+            <p>La instalacion es sencilla ya que solo hay que descargar el .rar que contiene la app, la carpeta "USBin" que es la carpeta que se sincroniza <br>
+                con el google drive, a la cual le podes meter los archivos que vs quieras mandar a google drive.</p>
+
+        </div>
+        <div class="main">
+            <h1>Funcionalidad</h1>
+            <p></p>
+
+        </div>
     </div>
+    <footer>
+        <p>USBin Sync &copy; 2024</p>
+    </footer>
 </body>
 </html>
