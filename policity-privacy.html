@@ -102,16 +102,19 @@
         </div>
         <div>
         <ul class="main">
-            <h1>Uso de la informacion</h1>
+            <h1>Uso de la información</h1>
             <br>
             <p>Utilizamos la información recopilada con y para los siguientes propósitos:</p>
             <li>Datos de autenticación: Información necesaria para autenticar su cuenta de Google y acceder a Google Drive.</li>
             <br>
-            <li>Datos a los que accedemos: La aplicacion accede a google drive solo para buscar si existe la carpeta USBin, y en caso de que esta no exista la aplicación crea dicha carpeta para la sincronización exclusiva de datos (elegidos por el usuario)  </li>
+            <li>Datos a los que accedemos: La aplicacion accede a lo pricipal de google drive y se encarga debuscar la existencia de una carpeta llamada USBin, en caso de que esta exista la app accede a la carpeta y copia su ID para poder usarla el la aplicaion y replicar los cambios dentro de la carpeta del PenDrive. <br>
+            En caso de que esta no exista el programa se encarga de crearla en la raiz de "Mi Unidad" y copiar la ID para el uso del programa  </li>
             <br>
-            <li>La aplicacion puede: Ver, editar, crear y borrar solo los archivos específicos de Google Drive que usas con nuestra app y se encuentren en el PenDrive</li>
+            <li>Datos que guarda la app: nos complace asegurar que nuestra app no recopila ningun dato del usuario, ya que todo se maneja de forma local, y no se guardan credenciales de inicio, esto con el fín de que el usuario se sienta seguro de que no ocuriran filtraciones de datos sensibles como credenciales de inicio o los elementos que el usuario decide sincronizar.</li>
             <br>
-            <li>Archivos:Solo los archivos que usted elige sincronizar con Google Drive mediante nuestra app</li>
+            <li>La aplicacion puede: Ver, editar, crear y borrar solo los archivos específicos de Google Drive que usas con nuestra app y se encuentren en el PenDrive, ya que si el usuario modifica la carpeta desde el Google Drive cuando la aplicacion no esta en ejecucio, esta no podra ver los cambios por ende cuando se ejecute, los cambios no se veran reflejados en el PenDrive</li>
+            <br>
+            <li>Archivos que alcanza la app:Solo los archivos que usted elige sincronizar con Google Drive mediante nuestra app, aunque nosotros no </li>
             <br>
             <li>Datos de Uso:La app al ejecutarse abrirá una pestaña de inicio de sesión en la que usted deberá introducir sus credenciales, y manualmente abriría su google drive para verificar que la app creó dentro de “Mi Unidad” una carpeta de acceso Público llamada USBin que sincronizará con la carpeta dentro de su PenDrive con el mismo nombre, cabe aclara que la aplicacion no guardará ningún dato de inicio, ya que esto proviene que si se extravía tu unidad, no queden datos sensibles de inicio.</li>
         </ul>
@@ -120,9 +123,8 @@
         
         <div class="main">
             <h1>Seguridad de los Datos</h1>
-            <p>Las medidas de seguridad son implementadas por el propio Google ya que usted deberá iniciar sesión y estos 
-                 datos no se guardan, es decir, cada vez que ejecute nuestra app esta le pedirá que inicie de forma manual para de esta forma nunca contar nosotros con datos sensibles o credenciales de inicio.</p>
-            <p>Nos complace aclarar que nuestra app no comparte, transfiere o divulga su información con terceros, solo interactuará usted con Google Drive mediante nustra app</p>
+            <p>Los datos del usuario son completamente seguros ya que no se guardan en la aplicacion, y cuando esta se inicie simepre te pedira que inicies sesion, esto para cuidar a los usuarios en caso de que el PenDrive se extravíe, no quede ningun dato de el mas que lo que el usuario le haya cargado</p>
+            <p>Recomendacion: eliminar las datos (personales) luego de que se carguen en el GoogleDrive, esto con la aplicaion sin estar ejecutandose porque sino los borraria de los dos lugares, esto para prevenir si se pierde la unidad que no le queden los datos </p>
         </div>
         <div class="main">
             <h1>Cambios a esta Política de Privacidad</h1>
