@@ -1,5 +1,5 @@
 la descarga de aplicacion consta de dos partes:
-- La app (Sinc) solo se ejecuta
+- La app (Sync) solo se ejecuta
 - la carpeta principal donde se encuentran los datos y donde el usuario pone los archivos a sincronizar con el GoogleDrive, en caso de que sea la primera vez del usuario Sinc creara una carpeta llamada USBin (como la del pendrive) y todos los elementos que el usuario
 - deposite en la carpeta del PenDrive (USBin) se sincronizaran al Drive. (Mientras la app este en ejecucion)
 
